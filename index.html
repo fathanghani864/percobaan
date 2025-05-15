@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Layout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[--body]" style="--primary: #129990; --secondary: #90D1CA; --accent: #096B68; --body: #FFFBDE;">
+
+  <section class="py-10">
+    <div class="container mx-auto px-6 md:px-16">
+      <div class="flex flex-wrap md:flex-nowrap gap-6">
+        
+        <!-- Kiri Card besar -->
+        <div class="w-full md:w-1/2">
+            <div class="bg-gradient-to-br from-[--primary] to-[--accent] text-white rounded-2xl shadow-xl p-8 h-full md:min-h-[620px] flex flex-col items-center justify-center text-center">
+              
+              <!-- Logo dalam lingkaran -->
+              <div class="bg-white p-4 rounded-full shadow-md mb-6">
+                <img src="Asset/Logo_Temnus-Transparent.png" alt="Logo" class="w-20 h-20 object-contain" />
+              </div>
+          
+              <!-- Judul & tagline -->
+              <h2 class="text-3xl font-extrabold mb-2">Temnus Studio</h2>
+              <p class="text-[--secondary] mb-4 italic">Build. Design. Deliver.</p>
+          
+              <!-- Deskripsi -->
+              <p class="leading-relaxed max-w-md text-white/90">
+                Kami hadir untuk membangun aplikasi dan website dengan desain menarik dan performa tinggi. Percayakan ide kreatifmu kepada kami!
+              </p>
+            </div>
+          </div>
+
+        <!-- Kanan -->
+        <div class="w-full md:w-1/2 flex flex-col gap-6">
+          <!-- Card lebar atas -->
+          <div class="bg-[--secondary] text-gray-900 rounded-2xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold mb-3">Card Lebar Atas</h2>
+            <p class="leading-relaxed">
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus ea eum earum temporibus perspiciatis consequuntur quis unde, autem nulla molestiae, nisi officiis officia sint repellat est amet architecto, maiores laudantium.
+            </p>
+          </div>
+
+          <!-- 4 Card -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="bg-white rounded-xl shadow-md p-5 border-l-4 border-[--accent] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[--primary]">
+              <h3 class="text-lg font-semibold text-[--accent] mb-2">Card 1</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ad magnam, assumenda quisquam, repudiandae veritatis neque itaque, vero accusantium debitis ex repellendus eius pariatur. Omnis eum ipsam temporibus reiciendis ipsum!</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-md p-5 border-l-4 border-[--accent] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[--primary]">
+              <h3 class="text-lg font-semibold text-[--accent] mb-2">Card 2</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ex soluta facere quod at praesentium facilis fugit quibusdam ea iste inventore expedita ducimus dolorem vero dolores, repellat sit, nostrum culpa</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-md p-5 border-l-4 border-[--accent] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[--primary]">
+              <h3 class="text-lg font-semibold text-[--accent] mb-2">Card 3</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam debitis aliquam numquam maiores similique ab veritatis, perspiciatis voluptas nemo recusandae ex delectus cumque molestiae quasi porro amet quis placeat</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-md p-5 border-l-4 border-[--accent] transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 hover:border-[--primary]">
+              <h3 class="text-lg font-semibold text-[--accent] mb-2">Card 4</h3>
+              <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, maxime! Sunt molestias esse harum dolore suscipit enim recusandae. Corporis eaque aliquid accusamus odio, animi quibusdam qui eum ut dolores cupiditate?</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
